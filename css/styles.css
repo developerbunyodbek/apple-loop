@@ -83,7 +83,7 @@ img {
   flex-grow: 1;
 }
 
-/* SITE-HEADER */ 
+/* SITE-HEADER */
 .site-header {
   padding: 30px 0;
 }
@@ -293,7 +293,7 @@ img {
   background-image: url(../img/runners.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
 }
 
 .runners * {
@@ -337,7 +337,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
+only screen and (                min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/intro-bg@2x.jpg);
   }
