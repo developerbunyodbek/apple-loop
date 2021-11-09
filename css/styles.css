@@ -215,6 +215,11 @@ img {
   width: 8px;
   height: 8px;
   background-color: #ddd;
+  display: block;
+}
+
+.square-slider:not(:last-child) {
+  margin-right: 10px;
 }
 
 .square-item:not(:last-child) {
