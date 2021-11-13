@@ -141,17 +141,16 @@ img {
 
 /* HERO */
 .hero {
-  background-image: url(../img/intro-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center right;
-  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 185px;
   border-bottom: 2px solid #ddd;
+  background-image: url("../img/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 550px) bottom;
 }
 
 .hero-texts {
   width: 490px;
-  padding: 100px 0 150px 0;
 }
 
 .hero-title {
@@ -298,6 +297,7 @@ img {
   background-image: url(../img/runners.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   background-position: center top;
 }
 
@@ -345,5 +345,9 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/intro-bg@2x.jpg);
+  }
+
+  .runners {
+    background-image: url(../img/runners@2x.jpg);
   }
 }
